@@ -1,5 +1,5 @@
 # StartbitKit
-
+![StartbitKit](https://gitee.com/startbitkit/startbit-kit/raw/master/Hardware/picture.png "在这里输入图片标题")
 #### 介绍
 开源的USBCAN设备，包含硬件、嵌入式软件、上位机软件。
 主控芯片采用的STM32F105RBT6，硬件有USB、CAN、TF卡等接口，软件有以下功能：
