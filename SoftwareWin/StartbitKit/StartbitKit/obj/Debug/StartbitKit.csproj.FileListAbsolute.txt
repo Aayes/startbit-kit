@@ -1,0 +1,17 @@
+E:\MPLNE\BLOG\6.StartBitKit\00_上位机\StartbitKit\StartbitKit\obj\Debug\StartbitKit.csprojAssemblyReference.cache
+E:\MPLNE\BLOG\6.StartBitKit\00_上位机\StartbitKit\StartbitKit\obj\Debug\StartbitKit.Properties.Resources.resources
+E:\MPLNE\BLOG\6.StartBitKit\00_上位机\StartbitKit\StartbitKit\obj\Debug\StartbitKit.csproj.GenerateResource.cache
+E:\MPLNE\BLOG\6.StartBitKit\00_上位机\StartbitKit\StartbitKit\obj\Debug\StartbitKit.csproj.CoreCompileInputs.cache
+E:\MPLNE\BLOG\6.StartBitKit\00_上位机\StartbitKit\StartbitKit\bin\Debug\StartbitKit.exe
+E:\MPLNE\BLOG\6.StartBitKit\00_上位机\StartbitKit\StartbitKit\bin\Debug\StartbitKit.pdb
+E:\MPLNE\BLOG\6.StartBitKit\00_上位机\StartbitKit\StartbitKit\bin\Debug\Newtonsoft.Json.dll
+E:\MPLNE\BLOG\6.StartBitKit\00_上位机\StartbitKit\StartbitKit\bin\Debug\Newtonsoft.Json.xml
+E:\MPLNE\BLOG\6.StartBitKit\00_上位机\StartbitKit\StartbitKit\obj\Debug\StartbitKit.MainWid.resources
+E:\MPLNE\BLOG\6.StartBitKit\00_上位机\StartbitKit\StartbitKit\obj\Debug\StartbitKit.csproj.CopyComplete
+E:\MPLNE\BLOG\6.StartBitKit\00_上位机\StartbitKit\StartbitKit\obj\Debug\StartbitKit.exe
+E:\MPLNE\BLOG\6.StartBitKit\00_上位机\StartbitKit\StartbitKit\obj\Debug\StartbitKit.pdb
+E:\MPLNE\BLOG\6.StartBitKit\00_上位机\StartbitKit\StartbitKit\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+E:\MPLNE\BLOG\6.StartBitKit\00_上位机\StartbitKit\StartbitKit\bin\Debug\WeifenLuo.WinFormsUI.Docking.ThemeVS2015.dll
+E:\MPLNE\BLOG\6.StartBitKit\00_上位机\StartbitKit\StartbitKit\bin\Debug\Multimedia.dll
+E:\MPLNE\BLOG\6.StartBitKit\00_上位机\StartbitKit\StartbitKit\obj\Debug\StartbitKit.SettingWid.resources
+E:\MPLNE\BLOG\6.StartBitKit\00_上位机\StartbitKit\StartbitKit\obj\Debug\StartbitKit.NodesManageWid.resources
