@@ -29,8 +29,9 @@
 
 - 语言：C#（Winform）
 - 编译环境：Visual Studio Community 2017
+![上位机最新进展](SoftwareWin/StartbitKit/MyResources/Snipaste_2021-12-16_13-49-05.png)
 
 #### 参与贡献
 
-1.  有任何建议、帮助都可以提交issue
-2.  QQ群：678397352
+1.  如果有任何建议、帮助请联系QQ：3167139165
+2.  汽车电子交流QQ群：678397352
