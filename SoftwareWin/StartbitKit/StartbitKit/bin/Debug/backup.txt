@@ -1,0 +1,198 @@
+        //private void Unpack(int msgIndex)
+        //{
+        //    UInt64 signalValue = 0;
+        //    byte[] byteAry;
+        //    DBCLib.Message.Signal.ByteOrderEnum msgByteOrder = DBCLib.Message.Signal.ByteOrderEnum.BigEndian;
+
+        //    byteAry = CommonLib.StringToAry(transmitTableSource[msgIndex].Data);
+        //    msgByteOrder = transmitTableSource[msgIndex].GetMsg().Signals.ElementAt(0).ByteOrder;
+        //    if (msgByteOrder == DBCLib.Message.Signal.ByteOrderEnum.BigEndian) //motorola
+        //    {
+        //        for (int i = 7; i >= 0; i--)
+        //        {
+        //            signalValue |= (UInt64)byteAry[i] << (8 * i);
+        //        }
+        //    }
+        //    else//intel
+        //    {
+        //        for (int i = 0; i < 8; i++)
+        //        {
+        //            signalValue |= (UInt64)byteAry[i] << (8 * i);
+        //        }
+        //    }
+        //    foreach (var signal in transmitTableSource[msgIndex].GetMsg().Signals)
+        //    {
+        //        if (signal.ByteOrder == DBCLib.Message.Signal.ByteOrderEnum.BigEndian) //motorola
+        //        {
+        //            UInt64 temp = 0;
+        //            int startBit = 0;
+        //            byte[] bitMap = new byte[64] {
+        //                7, 6, 5, 4, 3, 2, 1, 0,
+        //                15,14,13,12,11,10,9, 8,
+        //                23,22,21,20,19,18,17,16,
+        //                31,30,29,28,27,26,25,24,
+        //                39,38,37,36,35,34,33,32,
+        //                47,46,45,44,43,42,41,40,
+        //                55,54,53,52,51,50,49,48,
+        //                63,62,61,60,59,58,57,56
+        //            };
+        //            for (int i = 0; i < 64; i++)
+        //            {
+        //                if (signal.StartBit == bitMap[i])
+        //                {
+        //                    startBit = i;
+        //                    break;
+        //                }
+        //            }
+        //            startBit = (int)(64 - signal.BitSize - startBit);
+        //            temp = signalValue >> startBit;
+        //            temp &= (~(0xFFFFFFFFFFFFFFFF << (int)signal.BitSize));
+        //            messagePropList[msgIndex][signal.Name] = temp * signal.ScaleFactor + signal.Offset;
+        //        }
+        //        else//intel
+        //        {
+        //            UInt64 temp = 0;
+        //            temp = signalValue >> (int)signal.StartBit;
+        //            temp &= (~(0xFFFFFFFFFFFFFFFF << (int)signal.BitSize));
+        //            messagePropList[msgIndex][signal.Name] = temp * signal.ScaleFactor + signal.Offset;
+        //        }
+        //    }
+        //}
+
+        //private string Pack(int msgIndex)
+        //{
+        //    string result = "";
+        //    UInt64 signalValue = 0;
+        //    byte[] byteAry;
+        //    DBCLib.Message.Signal.ByteOrderEnum msgByteOrder;
+
+        //    byteAry = CommonLib.StringToAry(transmitTableSource[msgIndex].Data);
+        //    msgByteOrder = transmitTableSource[msgIndex].GetMsg().Signals.ElementAt(0).ByteOrder;
+        //    if (msgByteOrder == DBCLib.Message.Signal.ByteOrderEnum.BigEndian) //motorola
+        //    {
+        //        for (int i = 7; i >= 0; i--)
+        //        {
+        //            signalValue |= (UInt64)byteAry[i] << (8 * i);
+        //        }
+        //    }
+        //    else//intel
+        //    {
+        //        for (int i = 0; i < 8; i++)
+        //        {
+        //            signalValue |= (UInt64)byteAry[i] << (8 * i);
+        //        }
+        //    }
+        //    foreach (var signal in transmitTableSource[msgIndex].GetMsg().Signals)
+        //    {
+        //        UInt64 temp = 0;
+        //        int startBit = 0;
+
+        //        if (signal.ByteOrder == DBCLib.Message.Signal.ByteOrderEnum.BigEndian) //motorola
+        //        {
+        //            byte[] bitMap = new byte[64] {
+        //                7, 6, 5, 4, 3, 2, 1, 0,
+        //                15,14,13,12,11,10,9, 8,
+        //                23,22,21,20,19,18,17,16,
+        //                31,30,29,28,27,26,25,24,
+        //                39,38,37,36,35,34,33,32,
+        //                47,46,45,44,43,42,41,40,
+        //                55,54,53,52,51,50,49,48,
+        //                63,62,61,60,59,58,57,56
+        //            };
+        //            for (int i = 0; i < 64; i++)
+        //            {
+        //                if (signal.StartBit == bitMap[i])
+        //                {
+        //                    startBit = i;
+        //                    break;
+        //                }
+        //            }
+        //            startBit = (int)(64 - signal.BitSize - startBit);
+        //            temp = (UInt64)(((double)messagePropList[msgIndex][signal.Name] - signal.Offset) / signal.ScaleFactor);
+        //            temp &= (~(0xFFFFFFFFFFFFFFFF << (int)signal.BitSize));
+        //            signalValue &= ~((~(0xFFFFFFFFFFFFFFFF << (int)signal.BitSize)) << startBit);
+        //            signalValue |= temp << startBit;
+        //        }
+        //        else//intel
+        //        {
+        //            startBit = (int)signal.StartBit;
+        //            temp = (UInt64)(((double)messagePropList[msgIndex][signal.Name] - signal.Offset) / signal.ScaleFactor);
+        //            temp &= (~(0xFFFFFFFFFFFFFFFF << (int)signal.BitSize)); 
+        //            signalValue &= ~((~(0xFFFFFFFFFFFFFFFF << (int)signal.BitSize)) << (int)signal.StartBit);
+        //            signalValue |= temp << (int)signal.StartBit;
+        //        }
+        //    }
+
+        //    if (msgByteOrder == DBCLib.Message.Signal.ByteOrderEnum.BigEndian) //motorola
+        //    {
+        //        for (int i = 7; i >= 0; i--)
+        //        {
+        //            result += ((byte)(signalValue >> (8 * i))).ToString("X2");
+        //            if (i > 0)
+        //            {
+        //                result += " ";
+        //            }
+        //        }
+        //    }
+        //    else//intel
+        //    {
+        //        for (int i = 0; i < 8; i++)
+        //        {
+        //            result += ((byte)(signalValue >> (8 * i))).ToString("X2");
+        //            if (i < 7)
+        //            {
+        //                result += " ";
+        //            }
+        //        }
+        //    }
+           
+        //    return result;
+        //}
+		
+		
+		                //double time = (stopwatch.ElapsedTicks / (double)Stopwatch.Frequency);
+
+                //if((time - lastTime) >= 0.001)
+                //{
+                //    tick++;
+                //    for (int i = 0; i < transmitTableSource.Count; i++)
+                //    {
+                //        if (transmitTableSource[i].IsCycleSend)
+                //        {
+                //            uint period = transmitTableSource[i].Period;
+                //            if (transmitTableSource[i].Period == 0)
+                //            {
+                //                period = 1;
+                //            }
+                //            if (transmitTableSource[i].isSending)
+                //            {
+                //                if ((tick % period) == 0)
+                //                {
+                //                    VirtualMessage message = new VirtualMessage();
+                //                    byte[] data = new byte[8];
+
+                //                    message.fileName = transmitTableSource[i].fileName;
+                //                    message.messageName = transmitTableSource[i].messageName;
+                //                    message.Data = CommonLib.StringToAry(transmitTableSource[i].Data);
+                //                    nodes[0].Send(message);
+                //                }
+                //            }
+                //        }
+                //        else
+                //        {
+                //            if (transmitTableSource[i].isSending)
+                //            {
+                //                VirtualMessage message = new VirtualMessage();
+                //                byte[] data = new byte[8];
+
+                //                message.fileName = transmitTableSource[i].fileName;
+                //                message.messageName = transmitTableSource[i].messageName;
+                //                message.Data = CommonLib.StringToAry(transmitTableSource[i].Data);
+                //                nodes[0].Send(message);
+
+                //                transmitTableSource[i].isSending = false;
+                //            }
+                //        }
+                //    }
+                //    lastTime = time;
+                //}

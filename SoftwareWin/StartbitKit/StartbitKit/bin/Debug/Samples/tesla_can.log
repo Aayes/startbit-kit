@@ -1,0 +1,151 @@
+Conversion Warnings Log
+
+
+MSG_ID: 1160 	MSG_TYPE: S 	MSG_NAME: DAS_steeringControl
+	SIG_NAME: DAS_steeringControlType, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DAS_steeringControlChecksum, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DAS_steeringControlCounter, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DAS_steeringHapticRequest, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 257 	MSG_TYPE: S 	MSG_NAME: GTW_epasControl
+	SIG_NAME: GTW_epasControlType, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: GTW_epasEmergencyOn, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: GTW_epasLDWEnabled, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: GTW_epasTuneRequest, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 880 	MSG_TYPE: S 	MSG_NAME: EPAS_sysStatus
+	SIG_NAME: EPAS_eacErrorCode, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: EPAS_handsOnLevel, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: EPAS_internalSAS, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: EPAS_steeringFault, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: EPAS_steeringRackForce, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: EPAS_steeringReduced, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: EPAS_torsionBarTorque, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 3 	MSG_TYPE: S 	MSG_NAME: STW_ANGL_STAT
+	SIG_NAME: StW_Angl, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: StW_AnglSpd, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: StW_AnglSens_Stat, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: StW_AnglSens_Id, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 14 	MSG_TYPE: S 	MSG_NAME: STW_ANGLHP_STAT
+	SIG_NAME: StW_AnglHP_Sens_Stat, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: StW_AnglHP_Sens_Id, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: CRC_STW_ANGLHP_STAT, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 264 	MSG_TYPE: S 	MSG_NAME: DI_torque1
+	SIG_NAME: DI_torque1Counter, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DI_soptState, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DI_torque1Checksum, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 280 	MSG_TYPE: S 	MSG_NAME: DI_torque2
+	SIG_NAME: DI_gear, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DI_brakePedal, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DI_gearRequest, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DI_torqueInterfaceFailure, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DI_torque2Counter, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DI_brakePedalState, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DI_epbParkRequest, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DI_epbInterfaceReady, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DI_torque2Checksum, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 309 	MSG_TYPE: S 	MSG_NAME: ESP_135h
+	SIG_NAME: ESP_absBrakeEvent, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ESP_brakeDiscWipingActive, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ESP_brakeLamp, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ESP_espFaultLamp, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ESP_espLampFlash, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ESP_hillStartAssistActive, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ESP_absFaultLamp, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ESP_espOffLamp, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ESP_tcLampFlash, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ESP_vehicleSpeed, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 792 	MSG_TYPE: S 	MSG_NAME: GTW_carState
+	SIG_NAME: BOOT_STATE, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: CERRD, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DOOR_STATE_FL, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DOOR_STATE_FR, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DOOR_STATE_FrontTrunk, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DOOR_STATE_RL, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DOOR_STATE_RR, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: GTW_updateInProgress, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: MCU_factoryMode, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: MCU_transportModeOn, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 872 	MSG_TYPE: S 	MSG_NAME: DI_state
+	SIG_NAME: DI_systemState, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DI_vehicleHoldState, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DI_proximity, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DI_driveReady, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DI_regenLight, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DI_state, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DI_cruiseState, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DI_immobilizerState, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DI_aebState, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DI_stateCounter, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DI_stateChecksum, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 109 	MSG_TYPE: S 	MSG_NAME: SBW_RQ_SCCM
+	SIG_NAME: StW_Sw_Stat3, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: MsgTxmtId, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: TSL_RND_Posn_StW, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: TSL_P_Psd_StW, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: CRC_SBW_RQ_SCCM, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 69 	MSG_TYPE: S 	MSG_NAME: STW_ACTN_RQ
+	SIG_NAME: SpdCtrlLvr_Stat, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: VSL_Enbl_Rq, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: SpdCtrlLvrStat_Inv, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: TurnIndLvr_Stat, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: HiBmLvr_Stat, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: WprWashSw_Psd, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: WprWash_R_Sw_Posn_V2, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: StW_Lvr_Stat, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: StW_Cond_Flt, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: StW_Cond_Psd, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: HrnSw_Psd, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: StW_Sw00_Psd, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: StW_Sw01_Psd, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: StW_Sw02_Psd, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: StW_Sw03_Psd, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: StW_Sw04_Psd, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: StW_Sw05_Psd, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: StW_Sw06_Psd, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: StW_Sw07_Psd, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: StW_Sw08_Psd, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: StW_Sw09_Psd, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: StW_Sw10_Psd, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: StW_Sw11_Psd, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: StW_Sw12_Psd, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: StW_Sw13_Psd, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: StW_Sw14_Psd, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: StW_Sw15_Psd, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: WprSw6Posn, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: CRC_STW_ACTN_RQ, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 643 	MSG_TYPE: S 	MSG_NAME: BODY_R1
+	SIG_NAME: Bckl_Sw_RL_Stat_SAM_R, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Bckl_Sw_RM_Stat_SAM_R, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Bckl_Sw_RR_Stat_SAM_R, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DL_RLtch_Stat, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DrRLtch_FL_Stat, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DrRLtch_FR_Stat, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DrRLtch_RL_Stat, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DrRLtch_RR_Stat, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: EngHd_Stat, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: LgtSens_Night, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: MPkBrk_Stat, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: RevGr_Engg, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: StW_Cond_Stat, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Trlr_Stat, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 760 	MSG_TYPE: S 	MSG_NAME: MCU_gpsVehicleSpeed
+	SIG_NAME: MCU_speedLimitUnits, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: MCU_userSpeedOffsetUnits, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 904 	MSG_TYPE: S 	MSG_NAME: MCU_clusterBacklightRequest
+	SIG_NAME: MCU_clusterReadyForDrive, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 984 	MSG_TYPE: S 	MSG_NAME: MCU_locationStatus
+	SIG_NAME: MCU_longitude, STATUS: Invalid Max or Min value., ACTION: Value Set to default

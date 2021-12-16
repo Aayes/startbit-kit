@@ -14,6 +14,9 @@ namespace StartbitKit
     public class Config
     {
         public MainWidConfig mainWidConfig = new MainWidConfig();
+        public ConfigWidConfig configWidConfig = new ConfigWidConfig();
+        public TransmitWidConfig transmitWidConfig = new TransmitWidConfig();
+        public SignalViewWidConfig signalViewWidConfig = new SignalViewWidConfig();
     }
 
     /// <summary>

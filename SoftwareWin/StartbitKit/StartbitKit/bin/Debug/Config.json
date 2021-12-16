@@ -1,3 +1,116 @@
 {
-  "mainWidConfig": {}
+  "mainWidConfig": {},
+  "configWidConfig": {
+    "dbcFiles": [
+      "E:\\MPLNE\\BLOG\\6.StartBitKit\\00_上位机\\StartbitKit\\StartbitKit\\bin\\Debug\\test.dbc",
+      "E:\\MPLNE\\BLOG\\6.StartBitKit\\00_上位机\\StartbitKit\\StartbitKit\\bin\\Debug\\Samples\\tesla_model3.dbc"
+    ]
+  },
+  "transmitWidConfig": {
+    "transmitTableSource": [
+      {
+        "fileName": "test.dbc",
+        "messageName": "Msg1",
+        "Name": "Msg1",
+        "Id": "1",
+        "Data": "02 00 00 00 00 00 00 00",
+        "IsCycleSend": false,
+        "Period": 100
+      },
+      {
+        "fileName": "tesla_model3.dbc",
+        "messageName": "APB_status",
+        "Name": "APB_status",
+        "Id": "258",
+        "Data": "00 00 00 00 00 00 00 00",
+        "IsCycleSend": false,
+        "Period": 100
+      },
+      {
+        "fileName": "tesla_model3.dbc",
+        "messageName": "APP_boardTemperatures",
+        "Name": "APP_boardTemperatures",
+        "Id": "3FC",
+        "Data": "80 80 80 80 80 80 00 00",
+        "IsCycleSend": false,
+        "Period": 100
+      },
+      {
+        "fileName": "tesla_model3.dbc",
+        "messageName": "APP_camCalibrationStatus",
+        "Name": "APP_camCalibrationStatus",
+        "Id": "3F4",
+        "Data": "00 E6 CC FD FF 00 00 00",
+        "IsCycleSend": false,
+        "Period": 100
+      }
+    ]
+  },
+  "signalViewWidConfig": {
+    "signalViewDataSource": [
+      {
+        "fileName": "test.dbc",
+        "messageName": "Msg2",
+        "signalName": "sig22",
+        "Name": "sig22",
+        "Val": "0"
+      },
+      {
+        "fileName": "test.dbc",
+        "messageName": "Msg2",
+        "signalName": "sig24",
+        "Name": "sig24",
+        "Val": "0"
+      },
+      {
+        "fileName": "test.dbc",
+        "messageName": "Msg2",
+        "signalName": "sig23",
+        "Name": "sig23",
+        "Val": "0"
+      },
+      {
+        "fileName": "test.dbc",
+        "messageName": "Msg2",
+        "signalName": "sig21",
+        "Name": "sig21",
+        "Val": "0"
+      },
+      {
+        "fileName": "test.dbc",
+        "messageName": "Msg1",
+        "signalName": "sig4",
+        "Name": "sig4",
+        "Val": "0"
+      },
+      {
+        "fileName": "test.dbc",
+        "messageName": "Msg1",
+        "signalName": "sig4",
+        "Name": "sig4",
+        "Val": "0"
+      },
+      {
+        "fileName": "test.dbc",
+        "messageName": "Msg1",
+        "signalName": "sig3",
+        "Name": "sig3",
+        "Val": "0"
+      },
+      {
+        "fileName": "test.dbc",
+        "messageName": "Msg1",
+        "signalName": "sig2",
+        "Name": "sig2",
+        "Val": "0"
+      },
+      {
+        "fileName": "test.dbc",
+        "messageName": "Msg1",
+        "signalName": "sig1",
+        "Name": "sig1",
+        "Val": "0"
+      }
+    ]
+  }
 }
